@@ -1,0 +1,7 @@
+# Install MinerU into an isolated Python 3.10-3.12 env (it is large; see README).
+#   uv venv .venv --python 3.12
+#   uv pip install -r requirements.txt
+mineru[core]
+python-docx
+pymupdf
+rapidocr-onnxruntime   # only needed for the index/table-rescue step

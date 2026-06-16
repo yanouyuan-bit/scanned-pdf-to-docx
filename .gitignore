@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------
+# COPYRIGHT GUARD — never commit the source book or anything derived from it.
+# This repo is the WORKFLOW + TOOLS only. Source PDFs, OCR text, and the
+# generated Word files are copyrighted and stay out of version control.
+# ---------------------------------------------------------------------------
+*.pdf
+*.docx
+*.doc
+!docs/workflow-guide.docx          # the only doc we authored ourselves
+
+# scanned sources / OCR intermediates / deliverables
+源文件/
+切分PDF/
+split_pdf/
+_ocr_out/
+_mineru_out/
+转word/
+out/
+校对存疑/
+*_content_list*.json
+*_middle.json
+*_model.json
+*_span.pdf
+*_layout.pdf
+*_origin.pdf
+
+# your real per-book corrections / canonical TOC (often contain book strings)
+_TOC_canonical.md
+toc_[0-9]*.py
+
+# scratch / generated
+_pageimg/
+_*_out.txt
+__pycache__/
+*.pyc
+.DS_Store
