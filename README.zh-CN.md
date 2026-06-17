@@ -1,4 +1,4 @@
-<!-- 语言 / Language: [English](README.md) · **中文** -->
+[English](README.md) · **简体中文**
 
 # scanned-pdf-to-docx
 
