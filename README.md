@@ -1,3 +1,5 @@
+<!-- Language: **English** · [中文](README.zh-CN.md) -->
+
 # scanned-pdf-to-docx
 
 A practical workflow + toolkit for turning **scanned PDFs with no text layer**
